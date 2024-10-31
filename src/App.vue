@@ -1,6 +1,6 @@
 <template>
   <ul class="bannerbox">
-      <li v-for="item in orderedBanners" :key="item.id" :class="item.class">
+      <li v-for="item in orderedBanners" :key="item.id" >
         <a :href="item.url">
         <img :src="item.src" :alt="item.title" />
     <button class="cta-button">Pelajari Lebih Lanjut</button>
@@ -17,23 +17,20 @@ export default {
         {
           id: 1,
           src: "../public/360kredi.png",
-          url:"https://www.baidu.com",
-          title: "360kredi",
-          class: "banner1",
+          url:"https://iyvct.xyz/7fk5qg",
+          title: "360kredi", //信飞
         },
         {
           id: 2,
           src: "../public/pinjamduit.png",
-          url:"https://www.baidu.com",
-          title: "pinjamduit",
-          class: "banner2",
+          url:"https://iyvct.xyz/6bnkav",
+          title: "pinjamduit", //百弓
         },
         {
           id: 3,
           src: "../public/rupiahcepat.png",
-          url:"https://www.baidu.com",
-          title: "rupiahcepat",
-          class: "banner3",
+          url:"https://iyvct.xyz/s5auhc",
+          title: "rupiahcepat", //摩比
         },
       ],
     };
