@@ -39,10 +39,10 @@ npm run build
 项目支持通过 URL 中的 order 参数控制 Banner 的显示顺序。order 参数为一个单独的数字，例如 ?order=1 表示将 ID 为 1 的 Banner 显示在首位，其余 Banner 保持默认顺序。
 
 默认顺序：当不指定 order 参数时，Banner 将按默认顺序 1, 2, 3 显示。
-自定义顺序：通过在 URL 中添加 order 参数并指定一个 Banner ID 值（例如 http://example.com?order=1），可以将指定的 Banner 展示在第一位。
+自定义顺序：通过在 URL 中添加 order 参数并指定一个 Banner ID 值（例如 http://xxxxxx?order=1），可以将指定的 Banner 展示在第一位。
 示例：
 
-默认顺序：http://example.com
+默认顺序：http://xxxxx
 按默认顺序 1, 2, 3 显示 Banner。
-自定义顺序：http://example.com?order=1
+自定义顺序：http://xxxxx?order=1
 将 ID 为 1 的 Banner 放在第一位，其余 Banner 按默认顺序排列
