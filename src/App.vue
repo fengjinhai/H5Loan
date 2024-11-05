@@ -62,7 +62,7 @@ export default {
 
 
 .bannerbox {
-  margin:80px 9px;
+  margin:40px 9px 80px 9px;
 
 }
 li {
