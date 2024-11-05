@@ -16,23 +16,24 @@ export default {
       banners: [
         {
           id: 1,
-          src: "../public/360kredi.png",
-          url:"https://iyvct.xyz/7fk5qg",
+          src: "/360kredi.png", // 从 `public` 文件夹根目录开始引用
+          url: "https://iyvct.xyz/7fk5qg",
           title: "360kredi", //信飞
         },
         {
           id: 2,
-          src: "../public/pinjamduit.png",
-          url:"https://iyvct.xyz/6bnkav",
+          src: "/pinjamduit.png",
+          url: "https://iyvct.xyz/6bnkav",
           title: "pinjamduit", //百弓
         },
         {
           id: 3,
-          src: "../public/rupiahcepat.png",
-          url:"https://iyvct.xyz/s5auhc",
+          src: "/rupiahcepat.png",
+          url: "https://iyvct.xyz/s5auhc",
           title: "rupiahcepat", //摩比
         },
       ],
+
     };
   },
   computed: {
