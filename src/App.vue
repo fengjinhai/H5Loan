@@ -17,19 +17,19 @@ export default {
         {
           id: 1,
           src: "/360kredi.png", // 从 `public` 文件夹根目录开始引用
-          url: "https://iyvct.xyz/7fk5qg",
+          url: "https://iyvct.xyz/cujegc",
           title: "360kredi", //信飞
         },
         {
           id: 2,
           src: "/pinjamduit.png",
-          url: "https://iyvct.xyz/6bnkav",
+          url: "https://iyvct.xyz/4ng9h5",
           title: "pinjamduit", //百弓
         },
         {
           id: 3,
           src: "/rupiahcepat.png",
-          url: "https://iyvct.xyz/s5auhc",
+          url: "https://iyvct.xyz/h9g834",
           title: "rupiahcepat", //摩比
         },
       ],
